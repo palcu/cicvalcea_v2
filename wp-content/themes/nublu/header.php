@@ -76,6 +76,6 @@ getTwitters('tweet', {
 <div class="clear"></div>
 <div class="header">
 
-<div class="logo"><h1><a href="<?php echo get_option('home'); ?>/">Europe Direct Valcea</a></h3></div>
+<div class="logo"><h1><a href="<?php echo get_option('home'); ?>/">Europe Direct Valcea</a></h1></div>
 <div id="twit">Bine ati venit !!!</div>
 </div><!--header-->
