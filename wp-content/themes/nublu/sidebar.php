@@ -26,13 +26,6 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
     <div class="side_top"></div>
     <div class="side_mid">
 
-    <div class="ads">
-    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/ads/125ad.png" alt="" class="smallad" /></a>
-    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/ads/125ad.png" alt="" class="smallad" /></a>
-    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/ads/125ad.png" alt="" class="smallad" /></a>
-    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/ads/125ad.png" alt="" class="smallad" /></a>
-    <div class="clear"></div>
-    </div>
 
 	<ul class="wits">
 	<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar(1) ) : else : ?>

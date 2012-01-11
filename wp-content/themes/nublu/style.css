@@ -33,11 +33,10 @@ a:hover {color:#000;}
 
 /**************** header *********************/
 .header { height:108px; background:url(images/top.png) no-repeat; margin-top:-20px; position:relative;}
-#tweet {position:absolute; right:80px; top:40px; font-size:11px; width:340px; line-height:22px; font-style:italic; font-family:Georgia, "Times New Roman", Times, serif; color:#666;}
-#tweet a {color:#069;}
-.logo {width:324px; padding:20px 0 0 20px;}
-.logo h1 {text-indent:-10000px;}
-.logo h1 a {height:65px; background:url(images/logo.png) no-repeat; display:block;}
+.logo {width:464px; padding:20px 0 0 20px;}
+.logo h1 a {height:65px; display:block; font-size:60px; font-family: 'Alex Brush', cursive;}
+#twit {position:absolute; right:0px; top:40px; font-size:18px; width:240px; line-height:22px; font-style:italic; font-family:Georgia, "Times New Roman", Times, serif; color:#666;}
+#twit a {color:#73;}
 
 /*********************Page Navigation**********************/
 .access{margin:30px auto;width:946px;display:block;float:left; position:relative;}
@@ -68,7 +67,7 @@ a:hover {color:#000;}
 #my-pager .pager-active:link, #my-pager .pager-active:visited {background:url(images/active.png) no-repeat; color:#FFF;}
 .boxthumb {float:left; width:275px;}
 .boxthumb img {border:1px solid #E5E5E5; padding:5px; background-color:#FFF;}
-.boxstuff {float:left; width:270px; margin-left:25px;}
+.boxstuff {float:left; width:470px; margin-left:25px;}
 .boxtitle {font-weight:normal; padding-bottom:15px;}
 .boxtitle a {color:#000; font-family:Georgia, "Times New Roman", Times, serif; font-size:24px; font-style:italic;}
 .boxcontent {line-height:24px; color:#666;}
@@ -99,7 +98,7 @@ a:hover {color:#000;}
 .meta {font-size:11px; color:#666; border-bottom:1px solid #d6d6d6; padding-bottom:10px; margin-bottom:10px; font-weight:bold; line-height:22px;}
 .meta span {color:#ccc;}
 .meta a {background:url(images/comment.png) left no-repeat; padding:10px 10px 10px 24px;}
-.postthumb {float:left; width:155px;}
+.postthumb {float:left; width:55px;}
 .postthumb img {border:1px solid #E5E5E5; padding:5px; background-color:#FFF;}
 .poststuff {float:left; margin-left:25px; width:390px;}
 

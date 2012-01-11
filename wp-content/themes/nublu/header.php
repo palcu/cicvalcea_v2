@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head profile="http://gmpg.org/xfn/11">
+<link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
 <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
@@ -75,8 +76,6 @@ getTwitters('tweet', {
 <div class="clear"></div>
 <div class="header">
 
-<div class="logo"><h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1></div>
-<div id="tweet">
-<img src="<?php bloginfo('template_directory'); ?>/images/loader.gif" />
-</div>
+<div class="logo"><h1><a href="<?php echo get_option('home'); ?>/">Europe Direct Valcea</a></h3></div>
+<div id="twit">Bine ati venit !!!</div>
 </div><!--header-->
