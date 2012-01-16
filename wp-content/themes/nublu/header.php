@@ -77,7 +77,7 @@ getTwitters('tweet', {
 <div class="header">
 
 <div class="logo"><h1>
-<img src="<?php bloginfo('template_directory'); ?>/images/logo_cicvalcea.jpg" height="70" width="70" />
+<!--<img src="<?php bloginfo('template_directory'); ?>/images/logo_cicvalcea_good.png" height="100" />-->
 <a href="<?php echo get_option('home'); ?>/">Europe Direct Valcea</a></h1></div>
-<div id="twit">Bine ati venit !!!</div>
+<div id="twit">Informatii despre UE <br /> 0800 67891011</div>
 </div><!--header-->

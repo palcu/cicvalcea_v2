@@ -32,10 +32,12 @@ a:hover {color:#000;}
 .body {background:url(images/blog.png) repeat-y;}
 
 /**************** header *********************/
-.header { height:108px; background:url(images/top.png) no-repeat; margin-top:-20px; position:relative;}
-.logo {width:564px; padding:10px 0 0 20px;}
-.logo h1 a {height:65px; display:inline; font-size:60px; font-family: 'Alex Brush', cursive;}
-#twit {position:absolute; right:0px; top:40px; font-size:18px; width:200px; line-height:22px; font-style:italic; font-family:Georgia, "Times New Roman", Times, serif; color:#666;}
+.header { height:108px; background:url(images/top_scaled_touch.png) no-repeat; margin-top:-20px; position:relative;}
+B
+.logo {width:600px; padding:20px 0 0 20px;}
+.logo h1 {}
+.logo h1 a {padding-left:110px; background:url(images/logo_cicvalcea_resized.png) no-repeat; display:block; font-size:60px; font-family: 'Alex Brush', cursive; height:100px; margin-top:-20px;padding-top:15px;}
+#twit {position:absolute; right:50px; top:50px; font-size:14px; width:200px; line-height:22px; font-style:italic; font-family:Georgia, "Times New Roman", Times, serif; color:#666;}
 #twit a {color:#73;}
 
 /*********************Page Navigation**********************/

@@ -7,7 +7,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 
     <div class="searchbar">
     <form action="<?php bloginfo('url'); ?>/" method="GET">
-    <input type="text" value="Search..." name="s" id="ls" class="searchfield" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
+    <input type="text" value="Cauta..." name="s" id="ls" class="searchfield" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
     <input type="image" src="<?php bloginfo('template_directory'); ?>/images/searchbutton.png" style="float:right;" />
     </form>
     <div class="clear"></div>
