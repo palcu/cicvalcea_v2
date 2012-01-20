@@ -1,6 +1,9 @@
 /*
 /*/
 
+!README.md
+!.gitignore
+
 !wp-content/
 wp-content/*
 
