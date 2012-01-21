@@ -7,20 +7,13 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 
     <div class="searchbar">
     <form action="<?php bloginfo('url'); ?>/" method="GET">
-    <input type="text" value="Cauta..." name="s" id="ls" class="searchfield" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
+    <input type="text" value="Caută..." name="s" id="ls" class="searchfield" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
     <input type="image" src="<?php bloginfo('template_directory'); ?>/images/searchbutton.png" style="float:right;" />
     </form>
     <div class="clear"></div>
     </div><!--searchbar -->
     <div class="clear"></div>
     
-    <div class="socialicons">
-    <a href="<?php bloginfo('rss2_url'); ?>" ><img src="<?php bloginfo('template_directory'); ?>/images/feed.png" border="0" alt="RSS" /></a>
-    <a href="http://www.twitter.com/<?php echo $nb_twitter; ?>"><img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" border="0" alt="Follow us on Twitter!" /></a>
-    <a href="http://www.facebook.com/<?php echo $nb_facebook; ?>"><img src="<?php bloginfo('template_directory'); ?>/images/facebook.png" border="0" alt="Follow us on Facebook!" /></a>
-    <a href="http://www.linkedin.com/<?php echo $nb_linkedin; ?>"><img src="<?php bloginfo('template_directory'); ?>/images/linkedin.png" border="0" alt="Follow us on Linkedin!" /></a>
-    </div><!--socialicons -->
-    <div class="clear"></div>
     
     <div class="side_cont"> 
     <div class="side_top"></div>
