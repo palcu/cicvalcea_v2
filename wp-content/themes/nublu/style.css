@@ -137,7 +137,7 @@ B
 .footer {background:#9E9E9E url(images/footer.png) repeat-x;}
 .bottomsection {background:url(images/footer_bg.png) repeat-y; margin:auto; width:936px;}
 .footer_bottom {background:url(images/footer_bottom.png) no-repeat; height:42px; margin:auto; width:936px;}
-.copyright {text-align:center; width:950px; margin:auto; font-size:11px; color:#FFF; padding:0 10px 20px 10px;}
+.copyright {text-align:center; width:950px; margin:auto; font-size:11px; color:#FFF; padding:20px 10px 20px 10px;}
 .copyright a:link, .copyright a:visited {color:#fff; text-decoration:underline;}
 .copyright span {color:#0A84AF; font-weight:bold; font-size:14px;}
 
