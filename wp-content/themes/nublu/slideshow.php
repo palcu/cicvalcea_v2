@@ -15,7 +15,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
             </div>
             <div class="boxstuff">
             <h2 class="boxtitle"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>                 
-            <div class="boxcontent"><?php limits(120, "Continue Reading"); ?></div>
+            <div class="boxcontent"><?php limits(120, "Citeste tot..."); ?></div>
             </div>
             <div class="clear"></div>
         </li>
